@@ -1,0 +1,6 @@
+test_homepage:
+    path:     /
+    defaults: { _controller: TestBundle:Reddit:index }
+reddit_api:
+    path:     /reddit/v1/{frontName}
+    defaults: { _controller: TestBundle:Reddit:api }
